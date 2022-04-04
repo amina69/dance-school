@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  background: #f0f0f0;
+  color: #101012;
+}
+
+.main-header {
+  background-image: url('../assets/images/alexander-jawfox-0mqcCmuWNlc-unsplash 1.jpg');
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  display: block;
+}
+
+.brand-logo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 700px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.brand-logo img {
+  width: 200px;
+  height: auto;
+}
+
+.brand-text { 
+  position: absolute;
+  text-align: left;
+  color: #FFFFFF;
+  right: 35vw;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 70px;
+}
+.brand-texts {
+  text-align: left;
+  color: #FFFFFF;
+  right: 35vw;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: auto;
+  /* margin-top: 70px; */
+}
+
+.sub-title {
+  margin: 80px auto;
+}
+
+.sub-title p {
+  color: #f0f0f0;
+  font-size: 12px;
+  margin: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sub-title span {
+  display: block;
+  border-bottom: solid 1px #f0f0f0;
+  width: 50px;
+  margin: auto;
+}
+
+.section-1 {
+  background-image: url("../assets/images/grey.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.section-1 nav {
+  padding-top: 50px;
+}
+
+.section-1 nav .navbar {
+  align-items: flex-end;
+  float: right;
+  margin-left: auto;
+}
+
+.nav-items {
+  text-align: right;
+  padding: 30px 0;
+}
+
+.nav-items .navbar-link {
+  color: #14171E;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: auto 20px;
+}
+
+.nav-items .navbar-link:last-child {
+  margin-right: 0px;
+}
+
+.float-content {
+  padding-top: 250px;
+  padding-bottom: 50px;
+  text-align: right;
+}
+
+.float-content p {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 20px;
+  font-size: 50px;
+  margin: 0;
+}
+
+.logo-text {
+  /* float: left; */
+  text-align: right;
+}
+
+button.hBtn {
+  border: solid 1px #14171E;
+  background-color: transparent;
+  padding: 10px 24px;
+  text-transform: uppercase;
+  font-size: 12px;
+  float: left;
+}
+
+button.hBtn::after {
+  content: "\2192";
+  padding-left: 10px;
+}
+
+.float-content button {
+  margin-left: 15px;
+}
+
+.services {
+  background: #F0F0F0;
+}
+
+.card{
+  border: none;
+}
+
+.img-box.img-box-sm img, .img-box.img-box-md img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+}
+
+.img-box.img-box-sm {
+  height: 400px;
+  overflow: hidden;
+  display: block;
+}
+
+.img-box.img-box-md {
+  height: 250px;
+  overflow: hidden;
+  /* display: flex;
+  flex-direction: column;
+justify-content: center; */
+}
+
+.box-left {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box-left h3 {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.box-left .subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.box-left .mintitle {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.box-left .midititle {
+  font-size: 8px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 30px;
+  line-height: 18px
+}
+
+.teacher-name, .teacher-genre {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+.teacher-genre {
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: normal;
+  margin: auto;
+  color: #505050;
+}
+
+.card-footer {
+  height: 60px;
+  background: transparent;
+  border: none;
+  padding-left: 0;
+}
+
+/* .box-left .xstitle{
+  font-size: 8px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 30px;
+} */
+.tutorNname {
+  text-transform: capitalize !important;
+  font-weight: 500 !important;
+  font-size: 10px;
+  line-height: 15px !important;
+}
+
+.box-left ul.mintitle-list, .flex-left ul.mintitle-list, .flex-grow-1 ul.mintitle-list, .flex-right ul.mintitle-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.box-left ul.mintitle-list li, .flex-left ul.mintitle-list li, .flex-grow-1 ul.mintitle-list li, .flex-right ul.mintitle-list li {
+  font-size: 10px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.flex-left .mintitle, .flex-grow-1 .mintitle, .flex-right .mintitle {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  margin-top: 10px;
+  line-height: 0px;
+}
+
+.left-box {
+  margin-top: 120px;
+}
+
+.box-3 {
+  margin-left: 200px;
+}
+
+button.unstyled {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+  padding: 0
+}
+
+.unstyled {
+  text-align: right
+}
+
+button.unstyled::after {
+  content: "\2192";
+  padding-left: 10px;
+}
+
+.head-teacher h3 {
+  margin-top: 50px;
+}
+
+.head-teacher {
+  text-align: center
+}
+
+.spacedOut{
+  margin-bottom: 80px;
+}
+
+
