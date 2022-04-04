@@ -295,4 +295,9 @@ button.unstyled::after {
   margin-bottom: 80px;
 }
 
+.location{
+  height: 400px;
+  width: 100%;
+}
+
 
